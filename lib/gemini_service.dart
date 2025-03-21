@@ -68,14 +68,26 @@ class GeminiService {
         "<Tip 3>"
       ]
     }
-    Ensure the JSON follows this structure with **no extra characters**. The response should be **well-structured and easy to parse** for a Flutter app.
+    Ensure the JSON follows this structure with no extra characters or headings like 'json'. Do not include any additional text before or after the JSON structure.. The response should be **well-structured and easy to parse** for a Flutter app.
     ''';
 
     final response = await model.generateContent([Content.text(prompt)]);
 
     
 
-    return response.text ?? "Error: Unable to generate itinerary.";
+   String itinerary = response.text ?? "Error: Unable to generate itinerary.";
+
+  // Remove the first 3-4 characters
+  if (itinerary.length > 7) {
+    itinerary = itinerary.substring(8);  // Removes the first 4 characters
+  }
+
+  int removeLastN = 3;
+  if (itinerary.length > removeLastN) {
+    itinerary = itinerary.substring(0, itinerary.length - removeLastN);
+  }
+
+  return itinerary;
 
     
   }
