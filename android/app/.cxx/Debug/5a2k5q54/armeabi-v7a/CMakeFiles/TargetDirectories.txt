@@ -1,0 +1,2 @@
+C:/Users/ray79/OneDrive/Documents/tripmate/appdev/android/app/.cxx/Debug/5a2k5q54/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/ray79/OneDrive/Documents/tripmate/appdev/android/app/.cxx/Debug/5a2k5q54/armeabi-v7a/CMakeFiles/rebuild_cache.dir

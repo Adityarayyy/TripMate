@@ -230,7 +230,7 @@ class _ItineraryPageState extends State<ItineraryPage> {
           ),
 
           const SizedBox(height: 40),
-           
+          
         ],
       ),
     );

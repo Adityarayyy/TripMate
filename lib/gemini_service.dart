@@ -5,7 +5,7 @@ class GeminiService {
   final String apiKey = "${dotenv.env["APIKEY"]}";
   final GenerativeModel model;
 
-  GeminiService() : model = GenerativeModel(model: 'gemini-1.5-pro', apiKey: "${dotenv.env["APIKEY"]}");
+  GeminiService() : model = GenerativeModel(model: 'gemini-2.0-flash', apiKey: "${dotenv.env["APIKEY"]}");
 
   Future<String> generateItinerary(String tripName, String destination, String duration, String budget, String people) async {
     final String prompt = '''
