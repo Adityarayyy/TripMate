@@ -2,10 +2,11 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 class GeminiService {
-  final String apiKey = "${dotenv.env["APIKEY"]}";
+  static const String apiKey = String.fromEnvironment('GEMINI_API_KEY');
   final GenerativeModel model;
 
-  GeminiService() : model = GenerativeModel(model: 'gemini-2.0-flash', apiKey: "${dotenv.env["APIKEY"]}");
+
+  GeminiService() : model = GenerativeModel(model: 'gemini-2.0-flash', apiKey: apiKey);
 
   Future<String> generateItinerary(String tripName, String destination, String duration, String budget, String people) async {
     final String prompt = '''
