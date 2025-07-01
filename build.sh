@@ -1,4 +1,5 @@
 #!/bin/bash
+export PATH="$PWD/flutter/bin:$PATH"
 
 
 flutter build web \
