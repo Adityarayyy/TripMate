@@ -1,16 +1,39 @@
-# appdev
+# 🌍 TripMate - Your Smart Travel Itinerary Planner
 
-A new Flutter project.
+TripMate is a Flutter-based mobile application designed to simplify travel planning. With features like collaborative trip creation, day-wise itineraries, expense tracking, and more, TripMate ensures a seamless and enjoyable travel experience for solo travelers or groups.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🗓️ **Create & Manage Trips** – Plan multiple trips with custom names, dates, and destinations.
+- 👥 **Collaborative Planning** – Invite friends to join and edit trip plans together in real time.
+- 📍 **Day-wise Itinerary** – Organize your trip day-by-day with activities and notes.
+- 💸 **Expense Tracker** – Keep tabs on shared expenses and individual contributions.
+- 🔔 **Smart Reminders** – Get notified for upcoming activities or budget limits.
+- ☁️ **Cloud Sync** – Access your trips from multiple devices using Firebase integration.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Screenshots
+
+https://drive.google.com/drive/folders/16gma1QLgu5ZXz5Gr7CqlIqEGjMlSqfNW?usp=drive_link
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Flutter (Dart)
+- **Backend**: Supabase (Database, Authentication)
+- **APIs**: Google Gemini API
+
+---
+
+## 🧠 Future Enhancements
+
+- Offline Mode  
+- Translate feature
+- Budget Management
+- Documnet Uploads  
+- AI-based Itinerary Suggestions  
+- Integration with Travel APIs (Skyscanner, Booking.com)
